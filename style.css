@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:darkslateblue;
+    font-size: 1.2rem;
+}
+
+h1 {
+    color: white;
+    margin: 2rem;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem 2%;
+}
+
+.box {
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    line-height: 90px;
+    vertical-align: middle;
+    background-color: green;
+    color: white;
+}
+
+.box-fizz {
+    background-color:blueviolet;
+}
+
+.box-buzz {
+    background-color: brown;
+}
+
+.box-fizzbuzz {
+    background-color: chocolate;
+}
